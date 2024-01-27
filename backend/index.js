@@ -106,7 +106,7 @@ app.use("/api",bugRouter)
 //**********************Chat************** */
 const io = new Server(server, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://ibm-frontend-lilac.vercel.app",
       methods: ["GET", "POST"],
     },
   });
